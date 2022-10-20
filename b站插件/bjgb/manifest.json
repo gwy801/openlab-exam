@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+    "name": "bjgb",
+    "version": "1.0",
+    "icons": {
+      "48" : "icon48.png"
+    },
+    "browser_action":{
+          "default_icon": "icon48.png"
+    },
+    "permissions":[
+      "*://www.bilibili.com/*",
+      "*://www.search.bilibili.com/*"
+    ],
+    "content_scripts":[
+      {
+        "matches":[ "*://www.bilibili.com/*",
+                    "*://www.search.bilibili.com/*"],
+        "js":["jquery-3.3.1.min.js",
+                "js/content.js"]
+      }
+    ]
+  }

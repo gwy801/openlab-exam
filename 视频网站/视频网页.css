@@ -1,0 +1,124 @@
+
+
+    a{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+    }
+    input[type=text]:focus {
+  background-color: lightblue;
+}
+  html, body{
+    margin: 0;
+    background-color: antiquewhite;
+    position: relative;
+  
+  }
+   .top{
+    background-color: gray;
+    width: 100%;
+    float: left;
+    cursor:pointer;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+   }
+    .top li.a {
+        display: inline-block;
+        padding: 30px 60px;
+        color:black;
+        width: 120px;
+        margin: 0px;
+        font-style:oblique;
+        list-style: none;
+        text-align: center;
+
+    }
+    .a:hover{
+        background-color: red;
+        font-size: 30px;
+    }
+    .top li.ss{
+        text-align: center;
+    }
+    .second {
+        list-style: none;
+        width: 100%;
+        float: left;
+        text-align: center;
+        background-color:white;
+        margin: 0px;
+        padding: 0px;
+       
+    }
+    .second li{
+        padding: 20px;
+        display: inline-block;
+        cursor:pointer;
+        text-align: center;
+        color: blue;
+    }
+    .b:hover{
+        background-color: aquamarine;
+        font-size: 30px;
+    }
+img{
+        width: 350px;
+        height: 300px;
+}
+    
+div #im:hover{
+    border: 1px solid green;
+}
+div.img:hover{
+    border: 1px solid green;
+}
+div.img{
+    float: left;
+    margin: 10px;
+    border: 0px;
+}
+div.des{
+    text-align: center;
+}
+div.im{
+   margin-left: 500px;
+   padding-top: 150px;
+   width: 600px;
+}
+div #im{
+    width: 500px;
+}
+div #des{
+    text-align: center;
+    font-size:30px ;
+}
+.searchTerm {
+  width: 50%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+.searchTerm:focus{
+  color: #00B4CC;
+}
+.search{
+    padding-left: 300px;
+    padding-bottom: 0px;
+}
+.searchButton{
+    background-attachment: fixed;
+    background-color: #00B4CC;
+    width: 50px;
+    height: 36px;
+    cursor: pointer;
+}
+ #list{
+    color: black;
+    border: 1px solid red;
+   background-color: #9DBFAF;
+}
