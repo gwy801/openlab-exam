@@ -3,10 +3,10 @@
     "name": "bjgb",
     "version": "1.0",
     "icons": {
-      "48" : "icon48.png"
+      "48" : "./icon/icon48.png"
     },
     "browser_action":{
-          "default_icon": "icon48.png"
+          "default_icon": "./icon/icon48.png"
     },
     "permissions":[
       "*://www.bilibili.com/*",
