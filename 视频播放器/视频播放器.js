@@ -51,6 +51,10 @@ function qp(){
     }bj.innerHTML='全屏'
 }
 }
+function hzh(){
+// 进入画中画
+video.requestPictureInPicture();
+}
 var bfRate=document.getElementById('bfRate');
 bfRate.addEventListener('change', function () { 
     video.playbackRate = bfRate.value; 
