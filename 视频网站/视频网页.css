@@ -83,7 +83,7 @@ div.des{
 div.im{
    margin-left: 500px;
    padding-top: 150px;
-   width: 600px;
+   max-width: 600px;
 }
 div #im{
     width: 500px;
